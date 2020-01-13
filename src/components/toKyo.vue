@@ -1,17 +1,11 @@
 <template>
     <div>
-        分类
+       东京详情页 
     </div>
 </template>
 <script>
 export default {
-    data(){
-        return{
-        }
-    },
-    methods:{
     
-    }
 }
 </script>
 <style lang="less" scoped>

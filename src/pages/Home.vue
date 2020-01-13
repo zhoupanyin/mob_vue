@@ -12,7 +12,7 @@
             </swiper>
         </div>
         <div class='continer'>
-            <div class='box'>东京</div>
+            <div class='box' @click="gotoTOKYO">东京</div>
             <div class='box'>巴黎</div>
             <div class='box'>土耳其</div>
         </div> 
@@ -52,7 +52,10 @@ export default {
     mounted(){
     },
     methods:{
-
+        gotoTOKYO(){
+            // this.$router.replace('../components/toKyo.vue');
+            this.$router.push('../components/toKyo.vue');
+        }
     },
 }
 </script>
