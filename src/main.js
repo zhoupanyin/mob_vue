@@ -5,7 +5,7 @@ import App from './App'
 import router from './router/router'
 //vuex安装配置
 import Vuex from 'vuex'
-import Store from './vuex/index.js'
+import store from './vuex/index.js'
 Vue.use(Vuex)
 //移动端适配安装flexible.js
 import 'lib-flexible/flexible.js'
@@ -25,7 +25,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  Store,
+  store,
   components: { App },
   template: '<App/>'
 })

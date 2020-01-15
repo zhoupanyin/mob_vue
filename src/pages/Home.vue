@@ -17,9 +17,9 @@
             <div class='box'>土耳其</div>
         </div> 
         <div class='continer'> 
-            <div class='box1'></div>
-            <div class='box1'></div>
-            <div class='box1'></div>
+            <div class='box1'>巴厘岛</div>
+            <div class='box1'>罗马</div>
+            <div class='box1'>大理</div>
         </div>
         
     </div>
